@@ -5,7 +5,7 @@
 
 def list_max(list):
     if len(list) == 1:
-        print('length = 1, returning 1', list[0])
+        return list[0]
     m = list_max(list[1:])
     if m > list[0]:
         return m
